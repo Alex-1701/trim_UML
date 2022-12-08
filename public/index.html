@@ -90,6 +90,8 @@
     </div>
   </div>
 
+  <a href="https://github.com/Alex-1701/trim_UML" target="_blank">GitHub</a>
+
   <script>
     let originalString = null;
     let resultStringSVG = null;
@@ -145,9 +147,9 @@
     const save = (option) => {
       if (option === "SVG") {
         if ('showSaveFilePicker' in window) {
-          return downloadAs(resultString);
+          return downloadAs(resultStringSVG);
         }
-        return download(resultString);
+        return download(resultStringSVG);
       } else if (option === "PNG") {
 
         document.getElementById("lol").click();
