@@ -1,0 +1,85 @@
+p {
+    font-family: Arial sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+
+button {
+    padding: 5px;
+}
+
+
+#original_svg_placeholder, #result_svg_placeholder {
+    display: none;
+}
+
+#images {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+#original_image_placeholder, #result_image_placeholder {
+    width: 100%;
+    border: 3px solid #838383;
+}
+
+#result_save_SVG_button, #result_save_PNG_button {
+    display: none;
+}
+
+.picture_with_description {
+    display: flex;
+    flex-direction: column;
+}
+
+.picture_description {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+#lol {
+    display: none;
+}
+
+#fileToLoad {
+    width: fit-content;
+    display: none;
+}
+
+#instruction {
+    width: fit-content;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+label {
+    cursor: pointer;
+    border: 1px solid #767676;
+    background-color: #f0f0f0;
+    border-radius: 2px;
+    padding: 3px 5px;
+}
+
+label:hover {
+    background-color: #E5E5E5;
+    border: 1px solid #4F4F4F;
+}
+
+#buttons {
+    display: flex;
+    column-gap: 20px;
+}
